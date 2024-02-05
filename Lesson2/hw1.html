@@ -3,29 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
     <style>
-        div{
-            width: 150px;
-            height: 150px;
-            background-color: grey;
-        }
-        .flex{
-            width: 100%;
-            height: 500px;
-            background-color: white;
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:ital@1&family=Protest+Revolution&family=Protest+Riot&family=Roboto&display=swap');
+
+        .text {
+            width: 200%;
+            height: 200px;
+            background-color: blueviolet;
             display: flex;
             justify-content: space-around;
             align-items: center;
         }
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .Josefin{
+            font-family:'Josefin Sans', sans-serif;
+            color: blue;
+            font-size: 30px;
+        }
+        .Playfair{
+            font-family:'Playfair Display', serif;
+            color: rebeccapurple;
+            font-size: 30px;
+        }
+        .Protest{
+            font-family:'Protest Revolution', sans-serif;
+            color: white;
+            font-size: 30px;
+        }
+        .Riot{
+            font-family:'Protest Riot', sans-serif;
+            color: brown;
+            font-size: 30px;
+        }
+        .Roboto{
+            font-family: 'Roboto', sans-serif;
+            color: red;
+            font-size: 30px;
+        }
+
+
     </style>
 </head>
 <body>
-<div class="flex">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<div class="text">
+    <div class="one">
+        <p class="Josefin">Josefin</p>
+    </div>
+    <div class="one">
+        <p class="Playfair">Playfair</p>
+    </div>
+
+    <div class="one">
+        <p class="Protest">Protest</p>
+    </div>
+
+    <div class="one">
+        <p class="Riot">Riot</p>
+    </div>
+
+    <div class="one">
+        <p class="Roboto">Roboto</p>
+    </div>
+
+
 </div>
+
+
 </body>
 </html>
