@@ -2,83 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>figma2</title>
+    <title>Title</title>
     <style>
-        header{
-            height: 20vh;
-            background: #D9D9D9;
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 45px;
+        }
+        .flex{
             display: flex;
-            justify-content:space-around;
+            justify-content: center;
             align-items: center;
         }
-        main{
-            display: flex;
-
+        .header{
+            height: 20vh;
+            background: #8D8484;
         }
-        article{
-            height: 60vh;
-            width: 20vw;
-            background: #817C7C;
-        }
-        div{
+        .main{
             display: flex;
-            height: 60vh;
-            width: 60vw;
-
+            color: white;
         }
         section{
-            fill: #ABA8A8;
-            width: 30vw;
-            height: 30vh;
-            display: flex;
-            flex-direction: column;
-        }
-        aside{
-            background: #878484;
-            width: 30vw;
-            height: 30vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .one{
+            width: 70vw;
             height: 60vh;
-            width: 20vw;
-            background: #B7AEAE;
+        }
+        .one{
+            height: 33.4%;
+            background: #776969;
+        }
+        .two{
+            height: 33.4%;
+            background: #643030;
+        }
+        .three{
+            height: 33.4%;
+            background: #441818;
         }
 
-        footer{
+        aside{
+            width: 30vw;
+            height: 60vh;
+        }
+        .four{
+            height: 50%;
+            background: #937575;
+        }
+        .five{
+            height: 50%;
+            background: #644C4C;
+        }
+        .footer{
             height: 20vh;
             background: #BDBDBD;
-            display: flex;
-            justify-content:space-around;
-            align-items: center;
-        }
-        p {
-            display: flex;
-            justify-content:space-between;
-            align-items: center;
-            font-size: 35px;
-
         }
     </style>
 </head>
 <body>
-<header>
-    <p>Header</p>
+<header class="header flex">Header
 </header>
-<main>
-    <article> <p>News-1</p></article>
-    <div>
-    <section> <p>Content-1</p></section>
-    <aside> <p>Content-2</p></aside>
-    </div>
-    <div class="one"> <p>Sponsor</p></div>
-
+<main class="main">
+    <section>
+        <div class="one flex ">Content-1</div>
+        <div class="two flex ">Content-2</div>
+        <div class="three flex ">Content-3</div>
+    </section>
+    <aside>
+        <div class="four flex ">Spam-1</div>
+        <div class="five flex ">Spam-2</div>
+    </aside>
 
 </main>
-<footer>
-    <p>footer</p>
+<footer class="footer flex">Footer
 </footer>
 </body>
 </html>
