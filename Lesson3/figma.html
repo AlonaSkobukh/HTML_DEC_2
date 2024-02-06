@@ -2,59 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Figma</title>
+    <title>hw3_1_2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <style>
-        header{
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+            font-size: 45px;
+
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header {
             height: 20vh;
             background: #8D8484;
         }
-        main{
+
+        .main {
             display: flex;
-        article{
-            height: 20vh;
-            width: 70vw;
         }
 
-        .one{
-            height: 20vh;
+        .content {
             width: 70vw;
+            height: 60vh;
+            color: white;
+        }
+
+        .content-one {
+            height: 33.3%;
             background: #776969;
         }
-        .two{
-            height: 20vh;
-            width: 70vw;
+
+        .content-two {
+            height: 33.3%;
             background: #643030;
         }
-        .three{
-            height: 20vh;
-            width: 70vw;
+
+        .content-three {
+            height: 33.3%;
             background: #441818;
         }
-        section{
-            height: 30vh;
+
+        .spam {
+            height: 60vh;
             width: 30vw;
+            color: white;
         }
-        .four{
+
+        .spam-one {
+            height: 50%;
             background: #937575;
-         }
-        .five{
+        }
+
+        .spam-two {
+            height: 50%;
             background: #644C4C;
         }
-        footer{
+
+        .footer {
             height: 20vh;
             background: #BDBDBD;
         }
+
     </style>
 </head>
 <body>
-<header></header>
-<main>
-    <article ></article>
-    <article class="two"></article>
-    <article class="three"></article>
-    <section class="four"></section>
-    <section class="five"></section>
+<header class="header flex">
+    Header
+</header>
+<main class="main">
+    <section class="content">
+        <div class="content-one flex">Content-1</div>
+        <div class="content-two flex">Content-2</div>
+        <div class="content-three flex">Content-3</div>
+    </section>
+    <aside class="spam">
+        <div class="spam-one flex">Spam-1</div>
+        <div class="spam-two flex">Spam-2</div>
+    </aside>
 </main>
-<footer></footer>
+<footer class="footer flex">
+    Footer
+</footer>
+
 </body>
-</html>
+</html>>
