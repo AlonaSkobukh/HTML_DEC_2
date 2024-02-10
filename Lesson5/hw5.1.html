@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>hw5_1</title>
+    <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
     <style>
-        * {
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -21,8 +20,7 @@
             align-items: center;
             justify-content: center;
         }
-
-        .cards-list {
+        .cards--list {
             width: 70%;
             height: 60%;
             display: flex;
@@ -33,16 +31,13 @@
             width: 25%;
             height: 100%;
             display: flex;
-            flex-direction: column;
+            flex-direction:column;
             align-items: center;
             justify-content: center;
             position: relative;
             border: 0.6vh solid #554C4C;
-
-
             background: rgba(217, 217, 217, 0.30);
         }
-
         .cards-item:hover {
             border: 0.6vh solid #65856E;
 
@@ -59,7 +54,7 @@
         }
 
         .cards-item > img {
-            width: 70%;
+            width: 80%;
         }
 
         .cards-icon {
@@ -70,26 +65,20 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            top: -9%;
-
+            top: -10%;
             background-color: white;
             border: 0.6vh solid #554C4C;
-
-
             border-radius: 100%;
-
         }
-
         .cards-icon > img {
             width: 70%;
         }
-
 
     </style>
 </head>
 <body>
 <section class="cards">
-    <div class="cards-list">
+    <div class="cards--list">
         <div class="cards-item">
             <h2>Lorem</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -113,6 +102,4 @@
         </div>
     </div>
 </section>
-
 </body>
-</html>
