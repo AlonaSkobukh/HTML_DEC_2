@@ -1,0 +1,124 @@
+ {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.inner {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.log-in {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 3px;
+
+}
+
+.log-in img {
+    width: 40%;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid grey;
+    text-overflow: ellipsis;
+
+}
+
+input[type="submit"] {
+    border-radius:10px;
+    border: none;
+    background: cornflowerblue;
+    height: 35px;
+    color: white;
+
+
+}
+
+ .lines {
+     width: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 0;
+ }
+
+.line {
+    background: grey;
+    height: 1px;
+    width: 40%;
+
+}
+
+
+.facebook__link {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+.facebook__link img {
+    width: 25px;
+}
+
+.facebook__link p {
+    color: dodgerblue;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: dodgerblue;
+    padding-bottom: 40px;
+}
+
+.sing-up {
+    margin-bottom: 40px;
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    text-align: center;
+    gap: 5px;
+}
+
+.sing-up a {
+    color: dodgerblue;
+}
