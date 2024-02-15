@@ -1,6 +1,6 @@
 body{
     font-family: "Lato", sans-serif;
-    margin: 0;
+    margin:0;
     width: 100vw;
     height: 4433px;
     background: #19191B;
@@ -23,7 +23,6 @@ header{
     justify-content: space-around;
     align-items: center;
     color: #FFF;
-    font-family:Lato;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -48,7 +47,6 @@ nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.70);
     text-align: right;
-    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -56,8 +54,7 @@ nav a {
 }
 .button {
     color: #FFF;
-    text-align: center;
-    font-family: Lato;
+    text-align: center;;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -77,7 +74,6 @@ main{
 h1{
     width: 582px;
     color: #FFF;
-    font-family: Lato;
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +82,6 @@ h1{
 p{
     width: 536px;
     color: rgba(255, 255, 255, 0.70);
-    font-family: Lato;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +96,6 @@ p{
     background: #5454D4;
     color: #FFF;
     text-align:center;
-    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -119,16 +113,16 @@ p{
 .two{
     display: flex;
     flex-direction: column;
-
 }
-h2{
-    width: 588px;
+h2 {
+    width: 695px;
     color: #FFF;
-    font-family: Lato;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
+    text-align: center;
+    display: flex;
 }
 .img2{
     width: 1200px;
@@ -141,44 +135,48 @@ h2{
 
 }
 .three{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+
+}
+.three>.three1{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
+
 }
-.three-text{
+.three1-text{
     width: 100vw;
     color: #FFF;
     text-align: center;
-    font-family: Lato;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
     display: flex;
-    padding: 137px 370px 116px 370px ;
+    padding: 0;
 }
-.three-text>h2{
+.three1-text>h2{
     display: flex;
-   justify-content:space-around;
+    justify-content:space-around;
     align-items: center;
+    padding-left: 370px;
+    padding-bottom: 0;
 }
 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .cards {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 .cards--list {
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -199,7 +197,6 @@ h2{
     width: 199px;
     color: #FFF;
     text-align: center;
-    font-family: Lato;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -209,7 +206,6 @@ h2{
 .cards-item p{
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -245,22 +241,93 @@ h2{
     border-radius: 100%;
 }
 .cards-icon > img {
-    width: 70%;
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    fill: rgba(254, 220, 90, 0.10);
+
 }
 
-.three1{
+.three>.three2{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100vw;
-}
+    width: 100%;
 
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+}
+.text{
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+
+}
+.text h2{
+    margin-bottom: 161px;
+
+}
+aside{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+aside img{
+    width: 336px;
+    height: 253px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;x;
+    margin: 24px;
+}
+.five{
+
+    display: flex;
+}
+.button2 {
+    display: flex;
+    width: 201px;
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5454D4;
+    padding-top: 30px;
+    padding-left: 80px;
+
+
+}
 footer{
-        width: 100vw;
-        height: 10vh;
-        background-color: gray;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.footer-text{
+    width: 285px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
 }
