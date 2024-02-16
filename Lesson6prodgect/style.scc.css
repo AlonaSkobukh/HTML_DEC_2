@@ -307,7 +307,6 @@ aside img{
     height: 253px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     margin: 90px;
 }
 
