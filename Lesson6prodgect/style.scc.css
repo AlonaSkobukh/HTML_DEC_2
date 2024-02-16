@@ -1,20 +1,21 @@
 body{
     font-family: "Lato", sans-serif;
-    margin:0;
-    width: 100vw;
-    height: 4433px;
+    margin:0 120px 0 120px;
     background: #19191B;
+    width: 100vw;
 
     }
-
+.joint{
+    flex-shrink: 0;
+}
 
 header{
-    width: 100vw;
-    height: 10vh;
+    height: 7.5vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-sizing: border-box;
+
+
 }
 
 .icon {
@@ -60,6 +61,8 @@ nav a {
     font-weight: 400;
     line-height: normal;
     width: 141px;
+    height: 30px;
+    border: 1px solid white;
 
 }
 main{
@@ -90,17 +93,17 @@ p{
 }
 .button1 {
     width: 204px;
-    height: 58px;
+    height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
     background: #5454D4;
     color: #FFF;
     text-align:center;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 30px;
+    padding-top: 10px;
 
 }
 
@@ -111,6 +114,7 @@ p{
     padding-left: 70px;
 }
 .two{
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
@@ -140,10 +144,10 @@ h2 {
     background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 
 }
+
 .three>.three1{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     width: 100%;
 
 }
@@ -164,11 +168,11 @@ h2 {
     align-items: center;
     padding-left: 370px;
     padding-bottom: 0;
+
 }
 
-
 .cards {
-    height: 100vh;
+    height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,7 +240,7 @@ h2 {
     align-items: center;
     flex-shrink: 0;
     position: absolute;
-    top: -10%;
+    top: -80%;
     border: 0.6vh solid ;
     border-radius: 100%;
 }
@@ -258,69 +262,82 @@ h2 {
 .four{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
     flex-shrink: 0;
+    padding-bottom: 280px;
 
 }
-.text{
+
+.text1{
     color: #FFF;
     font-size: 58px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     display: flex;
-
+    padding-right: 800px;
 }
-.text h2{
-    margin-bottom: 161px;
 
-}
 aside{
     display: flex;
     justify-content:space-evenly;
-
+    padding:150px;
 }
 aside img{
     width: 336px;
     height: 253px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;x;
-    margin: 24px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 90px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: column;
+
 }
 .five{
-
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.five h2{
+    width: 826px;
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .button2 {
     display: flex;
-    width: 201px;
+    width: 190px;
     color: #FFF;
     text-align: center;
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 60px;
+    height: 30px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #5454D4;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 80px;
+    margin-left: 500px;
 
 
 }
-footer{
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
 
-}
 .footer-text{
     width: 285px;
     color: rgba(255, 255, 255, 0.70);
@@ -328,6 +345,26 @@ footer{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 38px; /* 237.5% */
+    line-height: 38px;
     letter-spacing: -0.5px;
+    padding-left: 1250px;
+    margin-bottom: 100px;
 }
+
+
+.icon1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    padding-right: 1450px;
+    margin-top: 220px;
+
+
+
+}
+
