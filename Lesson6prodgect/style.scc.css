@@ -1,8 +1,9 @@
 body{
     font-family: "Lato", sans-serif;
-    margin:0 120px 0 120px;
+    margin:0 8vw 0 8vh;
     background: #19191B;
     width: 100vw;
+    height: 308vh;
 
     }
 .joint{
@@ -75,7 +76,7 @@ main{
     background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 }
 h1{
-    width: 582px;
+    width: 40vw;
     color: #FFF;
     font-size: 80px;
     font-style: normal;
@@ -83,7 +84,7 @@ h1{
     line-height: 84px;
 }
 p{
-    width: 536px;
+    width: 37vw;
     color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
     font-style: normal;
@@ -119,7 +120,8 @@ p{
     flex-direction: column;
 }
 h2 {
-    width: 695px;
+    width: 39vw;
+    height: 15vh;
     color: #FFF;
     font-size: 60px;
     font-style: normal;
@@ -129,13 +131,24 @@ h2 {
     display: flex;
 }
 .img2{
-    width: 1200px;
-    height: 670px;
+    width: 83vw;
+    height: 75vh;
     flex-shrink: 0;
 }
 .text{
     display: flex;
     justify-content: space-around;
+
+}
+.tp-box-main{
+    width: 39vw;
+    height: 9vh;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.657px;
 
 }
 .three{
@@ -152,7 +165,6 @@ h2 {
 
 }
 .three1-text{
-    width: 100vw;
     color: #FFF;
     text-align: center;
     font-size: 60px;
@@ -163,6 +175,8 @@ h2 {
     padding: 0;
 }
 .three1-text>h2{
+    width: 48vw;
+    height: 13vh;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -271,6 +285,7 @@ h2 {
 }
 
 .text1{
+    width: 45vw;
     color: #FFF;
     font-size: 58px;
     font-style: normal;
@@ -278,15 +293,17 @@ h2 {
     line-height: normal;
     display: flex;
     padding-right: 800px;
+
 }
 
 aside{
     display: flex;
     justify-content:space-evenly;
-    padding:150px;
+    padding:100px;
+
 }
 aside img{
-    width: 336px;
+    width: 23vw;
     height: 253px;
     flex-shrink: 0;
     border-radius: 12px;
@@ -305,13 +322,15 @@ footer{
 }
 .five{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+
 
 
 }
 .five h2{
-    width: 826px;
+    width: 57vw;
+    height: 20vh;
     color: #FFF;
     font-size: 60px;
     font-style: normal;
@@ -320,14 +339,14 @@ footer{
 }
 .button2 {
     display: flex;
-    width: 190px;
+    width: 10vw;
+    height: 3vh;
     color: #FFF;
     text-align: center;
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 30px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #5454D4;
@@ -363,8 +382,7 @@ footer{
     line-height: 140%;
     padding-right: 1450px;
     margin-top: 220px;
-
-
+    width: 6vw;
 
 }
 
