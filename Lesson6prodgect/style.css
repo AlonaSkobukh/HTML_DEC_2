@@ -1,23 +1,18 @@
 body{
     font-family: "Lato", sans-serif;
-    margin:0 8vw 0 8vw;
+    margin:0 0 0 8vw;
     background: #19191B;
-    width: 100vw;
-
+    width:100vw;
 }
-.joint{
-    flex-shrink: 0;
+.header{
     height: 956px;
+    flex-shrink: 0;
 }
-
 header{
-    height: 7.5vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
-
 }
-
 .icon {
     padding-left: 5vw;
     display: flex;
@@ -28,19 +23,18 @@ header{
     font-weight: 700;
     line-height: 140%;
 }
-
 nav {
     height: 1vh;
     width: 100vw;
 }
-
 nav >div {
     width: 50vw;
     height: 5vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 280px;
+    padding-left: 150px;
+    margin-top: -10px;
 
 }
 nav a {
@@ -48,9 +42,6 @@ nav a {
     color: rgba(255, 255, 255, 0.70);
     text-align: right;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .home{
     color: #5454D4;
@@ -59,19 +50,14 @@ nav a {
     color: #FFF;
     text-align: center;;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     width: 10vw;
     height: 2vh;
     border: 1px solid white;
     padding-top: 3px;
-
 }
 main{
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
     box-sizing: border-box;
     flex-shrink: 0;
@@ -81,15 +67,12 @@ h1{
     width: 40vw;
     color: #FFF;
     font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 84px;
 }
 p{
     width: 37vw;
     color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
-    font-style: normal;
     font-weight: 400;
     line-height: 39px;
     letter-spacing: -0.657px;
@@ -103,35 +86,33 @@ p{
     color: #FFF;
     text-align:center;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-top: 10px;
-
+    margin-top: 50px;
 }
-
 .img{
+    display: flex;
     width: 656px;
     height: 713px;
     flex-shrink: 0;
-    padding-left: 70px;
+
 }
 .two{
-    height: 894px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
-h2 {
+h2{
     width: 39vw;
     height: 15vh;
     color: #FFF;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 70px;
-    text-align: center;
     display: flex;
+    text-align: left;
+}
+aside p{
+   display: flex;
+   margin-top:-50px;
 }
 .img2{
     width: 83vw;
@@ -140,55 +121,43 @@ h2 {
 }
 .text{
     display: flex;
-    justify-content: space-around;
-
+    justify-content:space-between;
 }
 .tp-box-main{
     width: 39vw;
     height: 9vh;
     color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 39px;
     letter-spacing: -0.657px;
-
 }
 .three{
-    height: 1024px;
     display: flex;
     flex-direction: column;
     background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
-
 }
-
 .three>.three1{
     margin: 0;
     padding: 0;
     width: 100%;
-
 }
 .three1-text{
     color: #FFF;
     text-align: center;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 70px;
     display: flex;
-    padding: 0;
+    justify-content:space-around;
+    align-items: center;
 }
 .three1-text>h2{
     width: 48vw;
     height: 13vh;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
-    padding-left: 370px;
-    padding-bottom: 0;
-
+    text-align: center;
 }
-
 .cards {
     height: 45vh;
     display: flex;
@@ -202,7 +171,6 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
-
 .cards-item {
     width: 25%;
     height: 100%;
@@ -211,45 +179,32 @@ h2 {
     align-items: center;
     justify-content: center;
     position: relative;
-
-
 }
-
 .cards-item h3{
     width: 199px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     letter-spacing: -0.75px;
 }
 .cards-item p{
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.5px;
     width: 299px;
 }
-
-
 .cards-item > h2 {
     font-size: 4vh;
 }
-
 .cards-item > p {
     font-size: 2vh;
     text-align: center;
 }
-
 .cards-item > img {
     width: 80%;
 }
-
 .cards-icon {
     display: flex;
     width: 10vh;
@@ -266,46 +221,30 @@ h2 {
     height: 69px;
     flex-shrink: 0;
     fill: rgba(254, 220, 90, 0.10);
-
 }
 
-.three>.three2{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-
-}
 .four{
-    height: 870px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
     flex-shrink: 0;
-    padding-bottom: 280px;
 
 }
-
 .text1{
     width: 45vw;
     color: #FFF;
     font-size: 58px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     display: flex;
     padding-right: 800px;
     white-space: nowrap;
-
 }
-
 aside{
     display: flex;
     justify-content:space-evenly;
     padding:100px;
-
 }
 aside img{
     width: 23vw;
@@ -314,33 +253,24 @@ aside img{
     border-radius: 12px;
     margin: 90px;
 }
-
 footer{
-    height:700px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items: stretch;
     box-sizing: border-box;
     flex-shrink: 0;
     flex-direction: column;
-
 }
 .five{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
-
 }
 .five h2{
     width: 57vw;
     height: 20vh;
     color: #FFF;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .button2 {
     display: flex;
@@ -349,19 +279,13 @@ footer{
     color: #FFF;
     text-align: center;
     font-size: 21px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     flex-shrink: 0;
     border-radius: 5px;
     background: #5454D4;
     padding-top: 20px;
     padding-left: 80px;
     margin-left: 500px;
-
-
 }
-
 .footer-text{
     width: 285px;
     color: rgba(255, 255, 255, 0.70);
@@ -371,22 +295,17 @@ footer{
     font-weight: 400;
     line-height: 38px;
     letter-spacing: -0.5px;
-    padding-left: 1250px;
+    padding-left: 1160px;
     margin-bottom: 100px;
 }
-
-
 .icon1{
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #FFF;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 140%;
-    padding-right: 1450px;
+    padding-right: 1300px;
     margin-top: 220px;
     width: 6vw;
-
 }
