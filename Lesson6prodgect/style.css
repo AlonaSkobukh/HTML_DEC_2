@@ -1,11 +1,12 @@
 body{
     font-family: "Lato", sans-serif;
-    margin:0;
+    margin:2vw 8vw 0 8vw;
     background: #19191B;
-    width:100vw;
+    display: block;
 }
 .header{
-    height: 90vh;
+
+    height: 87vh;
     flex-shrink: 0;
 }
 header{
@@ -24,10 +25,11 @@ header{
 }
 nav {
     height: 1vh;
-    width: 100vw;
+    width: 80vw;
+
 }
 nav >div {
-    width: 50vw;
+    width: 43vw;
     height: 5vh;
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +42,7 @@ nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.70);
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
 }
 .home{
     color: #5454D4;
@@ -50,7 +52,7 @@ nav a {
     text-align: center;;
     font-size: 16px;
     width: 10vw;
-    height: 2vh;
+    height: 5vh;
     border: 1px solid white;
     display: flex;
     align-items: center;
@@ -78,6 +80,9 @@ p{
     line-height: 39px;
     letter-spacing: -0.657px;
 }
+.one{
+    display: block;
+}
 .button1 {
     width: 204px;
     height: 40px;
@@ -88,7 +93,9 @@ p{
     text-align:center;
     font-size: 20px;
     padding-top: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .img{
     display: flex;
@@ -97,11 +104,20 @@ p{
     flex-shrink: 0;
 
 }
+.tp-box-main{
+    width: 39vw;
+    height: 9vh;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+}
 .two{
     height: 100vh;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 h2{
     width: 39vw;
@@ -118,26 +134,26 @@ aside.p{
     align-items: center;
 }
 aside p{
-   display: flex;
-   margin-top:-50px;
+    display: flex;
+    margin-top:-50px;
 }
 .img2{
-    width: 83vw;
-    height: 75vh;
+    width: 1200px;
+    height: 670px;
     flex-shrink: 0;
+    display: flex;
+}
+.img2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .text{
+    width: 83vw;
     display: flex;
     justify-content:space-between;
 }
-.tp-box-main{
-    width: 39vw;
-    height: 9vh;
-    color: rgba(255, 255, 255, 0.70);
-    font-size: 21px;
-    line-height: 39px;
-    letter-spacing: -0.657px;
-}
+
 .three{
     height: 100vh;
     display: flex;
@@ -232,10 +248,10 @@ aside p{
 }
 
 .four{
-    height: 73vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:flex-start;
     align-items: stretch;
     align-content: center;
 
