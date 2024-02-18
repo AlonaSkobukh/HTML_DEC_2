@@ -232,14 +232,11 @@ aside p{
     flex-shrink: 0;
 
 }
-.text1{
-    width: 45vw;
+h2{
+    display: flex;
     color: #FFF;
     font-size: 58px;
     font-weight: 800;
-    display: flex;
-    padding-right: 800px;
-    white-space: nowrap;
 }
 aside{
     display: flex;
