@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
     background: #19191B;
 }
+
+
 #First{
     margin: 0;
     height: 80vh;
@@ -78,19 +80,15 @@ body{
 .text1{
     color: #FFF;
     font-size: 8vh;
-    font-style: normal;
-    font-weight: 400;
     line-height: 8vh;
 }
 .text2{
     margin-top: 2vh;
     color: rgba(255, 255, 255, 0.70);
     font-size: 2vh;
-    font-style: normal;
-    font-weight: 400;
     line-height: 4vh;
 }
-.text>div>button{
+button{
     margin-top: 5vh ;
     width: 14vw;
     height: 6vh;
@@ -107,8 +105,8 @@ body{
 .text>img{
     margin: 0;
     height: 70vh;
-
 }
+
 
 #Second{
     margin: 0;
@@ -144,6 +142,7 @@ body{
     height: 65vh;
     background-size: cover;
 }
+
 
 #Third{
     margin: 0;
@@ -198,14 +197,12 @@ h3{
     justify-content: space-around;
     align-items: center;
     color: #FFF;
-
 }
 .text2 card{
     margin: 0;
     text-align: center;
     font-size: 2vh;
     line-height: 3vh;
-
 }
 
 
@@ -216,9 +213,9 @@ h3{
     justify-content: center;
 }
 #Fourth>article{
-    margin-top: 7.51vh;
-    height: 51.95vh;
-    width: 83.33vw;
+    margin-top:8vh;
+    height: 52vh;
+    width: 83vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -228,18 +225,16 @@ h3{
     height: 7vh;
     color: #FFF;
     font-size: 6vh;
-
 }
 .Fourth {
     margin: 0;
     width: 100%;
-    height: 29.4vh;
+    height: 29vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .icon4{
-    margin: 0;
     height: 100%;
     width: 27vw;
     display: flex;
@@ -255,7 +250,6 @@ h3{
     border-radius: 1vh;
 }
 .service{
-    margin: 0;
     height: 50vh;
     padding: 0 8vw 0 8vw;
     display: flex;
@@ -263,15 +257,12 @@ h3{
     justify-content: space-between;
 }
 .content5{
-    margin: 0;
     height: 14vh;
     width: 57vw;
     color: #FFF;
     font-size: 6vh;
 }
-
 .button4{
-    margin: 0;
     width: 14vw;
     height: 6vh;
     flex-shrink: 0;
@@ -280,19 +271,17 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
+
 footer{
-    margin: 0;
     padding-top: 5vh;
-    height: 18vh;
+    height: 13vh;
     display: flex;
     align-items: start;
     justify-content: center;
 }
 .footer{
-    margin: 0;
     height: 4vh;
     width: 83vw;
     display: flex;
@@ -300,7 +289,6 @@ footer{
     justify-content: space-between;
 }
 .footer-icon{
-    margin: 0;
     height: 4vh;
     display: flex;
     align-items: center;
@@ -308,7 +296,6 @@ footer{
     color: #FFF;
     font-size: 3vh;
 }
-
 .date {
     height: 100%;
     width: 30vw;
@@ -317,6 +304,7 @@ footer{
     justify-content: end;
     color: rgba(255, 255, 255, 0.70);
     text-align: right;
-    font-size: 2vh;
+    font-size: 1.5vh;
     line-height: 3vh;
+    letter-spacing: -0.5px;
 }
